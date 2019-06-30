@@ -344,7 +344,7 @@ $managedDatablockSet = new SimSet() {
       force16Bit = "0";
    };
    new t2dImageMapDatablock(linkImage0) {
-      imageName = "./";
+      imageName = "~/managed/";
       imageMode = "LINK";
       frameCount = "-1";
       filterMode = "SMOOTH";
@@ -373,5 +373,45 @@ $managedDatablockSet = new SimSet() {
       startFrame = "0";
       animationPingPong = "0";
       animationReverse = "0";
+   };
+   new t2dImageMapDatablock(Defender_leftImageMap) {
+      imageName = "~/data/images/Defender left.png";
+      imageMode = "FULL";
+      frameCount = "-1";
+      filterMode = "SMOOTH";
+      filterPad = "1";
+      preferPerf = "1";
+      cellRowOrder = "1";
+      cellOffsetX = "0";
+      cellOffsetY = "0";
+      cellStrideX = "0";
+      cellStrideY = "0";
+      cellCountX = "-1";
+      cellCountY = "-1";
+      cellWidth = "0";
+      cellHeight = "0";
+      preload = "1";
+      allowUnload = "0";
+      force16Bit = "0";
+   };
+   new t2dImageMapDatablock(Defender_rightImageMap) {
+      imageName = "~/data/images/Defender right.png";
+      imageMode = "FULL";
+      frameCount = "-1";
+      filterMode = "SMOOTH";
+      filterPad = "1";
+      preferPerf = "1";
+      cellRowOrder = "1";
+      cellOffsetX = "0";
+      cellOffsetY = "0";
+      cellStrideX = "0";
+      cellStrideY = "0";
+      cellCountX = "-1";
+      cellCountY = "-1";
+      cellWidth = "0";
+      cellHeight = "0";
+      preload = "1";
+      allowUnload = "0";
+      force16Bit = "0";
    };
 };

@@ -9,6 +9,12 @@ function Fish::onCollision(%srcObj, %dstObj, %srcRef, %dstRef, %time, %normal, %
     if(%dstObj.class $= "LeftPlayer"){
         $SCORE.incLeftCount();
         %srcObj.bounce();
+        //scoreLeft.text = "Game Over";
+    }
+    if(%dstObj.class $= "RightPlayer"){
+        $SCORE.incRightCount();
+        %srcObj.bounce();
+        //scoreLeft.text = "Game Over";
     }
 }
 

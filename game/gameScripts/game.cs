@@ -12,7 +12,10 @@ function startGame(%level)
 {
    exec("./fish.cs");
    exec("./leftPlayer.cs");
+   exec("./rightPlayer.cs");
    exec("./score.cs");
+
+   GuiGameOver.visible = 0;
 
    Canvas.setContent(mainScreenGui);
    Canvas.setCursor(DefaultCursor);
